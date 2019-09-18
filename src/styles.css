@@ -1,0 +1,44 @@
+
+*,
+*:hover,
+*:hover * {
+    transition: 0.7s ease-out;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	background: #3f808a;
+	font-family: 'Times New Roman',arial,helvetica,sans-serif;
+	background: url(img/body_bg.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body .banner {
+	margin: 0;
+	padding: 18px 18px 12px;
+	font-size: 22px;
+	color: white;
+	text-transform: capitalize;
+	border-radius: 5px 5px 0 0;
+	background: #7d3f26;
+	background: rgba(125, 63, 38, 0.9);
+	background: linear-gradient(rgba(63,128,138, 0.1), rgba(63,128,138, 0.1)), url(img/title_bg.png) no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+
+.big_shadow {
+  box-shadow: -1px 16px 45px 4px rgba(32,32,32,0.75);
+}
+
+.small_shadow {
+  box-shadow: -1px 5px 8px 0px rgba(32,32,32,0.75);
+}
+
+@media screen and (min-width: 550px) {
+  * {
+    box-sizing: border-box;
+  }
+}

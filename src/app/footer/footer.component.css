@@ -1,0 +1,151 @@
+/* ---------------- FOOTER ------------------ */
+footer {
+  margin: 18% 0;
+  padding-left: 20%;
+  position: relative;
+}
+
+footer .wrap {
+  width: 320px;
+  position: relative;
+}
+
+
+footer .acknowledgments {
+  width: 60%;
+  margin-left: 3%;
+  font-size: 18px;
+  color: #202020;
+  border-radius: 5px;
+  background: rgba(242,242,242,0.9);
+  background: url(../../img/info_bg.png) repeat-y;
+}
+
+footer  p {
+  margin: 0;
+  padding: 12px 20px;
+}
+
+footer .banner {
+  position: absolute;
+  top: -53px;
+  left: 0;
+  z-index: -1;
+}
+
+footer .social {
+  width: 46%;
+  margin-left: 15%;
+  padding: 10px;
+  list-style: none;
+  border-radius: 5px;
+  float: left;
+}
+
+footer .social li {
+  box-shadow: -1px 5px 8px 0px rgba(32,32,32,0.75);
+  border-radius: 4px;
+  background: #b1b0ad;
+  background: rgba(177,176,173,0.9);
+  display: inline-block;
+  margin-right: 3px;
+}
+
+footer .social li:hover {
+  background: #fbed69;
+  background: rgba(251,237,105,0.9);
+}
+
+footer .social li:hover a {
+  color: #0d3a82;
+}
+
+footer .social a {
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.big_shadow {
+  box-shadow: -1px 16px 45px 4px rgba(32,32,32,0.75);
+}
+
+.small_shadow {
+  box-shadow: -1px 5px 8px 0px rgba(32,32,32,0.75);
+}
+
+/*******************MEDIA 550**********************/
+@media screen and (min-width: 550px) {
+
+  /* ---------------- FOOTER ------------------ */
+  footer {
+    padding-left: 30%;
+  }
+  footer .acknowledgments {
+    width: 75%;
+    margin: 0;
+  }
+}
+
+/*******************MEDIA 640**********************/
+@media screen and (min-width: 640px) {
+}
+
+/*******************MEDIA 720**********************/
+@media screen and (min-width: 720px) {
+
+  /* ---------------- FOOTER ------------------ */
+  footer {
+    padding-left: 0;
+  }
+
+  footer .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  footer .social {
+    margin-top: 10%;
+  }
+
+  footer .social a {
+    padding: 8px;
+    font-size: 18px;
+  }
+}
+
+/*******************MEDIA 820**********************/
+@media screen and (min-width: 820px) {
+
+  footer .acknowledgments {
+    width: 75%;
+  }
+
+}
+
+/*******************MEDIA 960**********************/
+@media screen and (min-width: 960px) {
+  /* ---------------- FOOTER ------------------ */
+  footer {
+    margin: 14% 0 0;
+  }
+
+  footer .acknowledgments {
+    width: 75%;
+  }
+
+  footer .social {
+    width: 230px;
+    margin: 10% auto;
+    float: none;
+  }
+
+  footer .social li {
+    margin: 2px;
+  }
+
+  .clear {
+    clear: both;
+  }
+}
