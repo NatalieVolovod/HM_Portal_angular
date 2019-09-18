@@ -3,5 +3,11 @@
 	margin: 0 auto;
 }
 
+/*******************MEDIA 960**********************/
+@media screen and (min-width: 960px) {
+  .clear {
+    clear: both;
+  }
+}
 
 
