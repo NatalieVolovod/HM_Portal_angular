@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {ArticlesSelectionComponent} from './articles-selection/articles-selection.component';
+import {ArticlesListComponent} from './articles/articles-list.component';
 import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'articles-selection', component: ArticlesSelectionComponent },
+  { path: 'articles', component: ArticlesListComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
   // { path: '**', component: PageNotFoundComponent }
 
   // { path: 'article/:id',      component: ArticleComponent }
-  // { path: 'articles', component: ArticleListComponent, data: { title: 'Articles List' } }  // -- ArticlesSelectionComponent?
+  // { path: 'articles', component: ArticleListComponent, data: { title: 'Articles List' } }  // -- ArticlesListComponent?
 ];
 
 @NgModule({
