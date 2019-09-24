@@ -1,4 +1,3 @@
-
 *,
 *:hover,
 *:hover * {
@@ -10,7 +9,7 @@ body {
 	margin: 0;
 	background: #3f808a;
 	font-family: 'Times New Roman',arial,helvetica,sans-serif;
-	background: url(img/body_bg.jpg) no-repeat;
+	background: url(assets/img/body_bg.jpg) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -24,7 +23,7 @@ body .banner {
 	border-radius: 5px 5px 0 0;
 	background: #7d3f26;
 	background: rgba(125, 63, 38, 0.9);
-	background: linear-gradient(rgba(63,128,138, 0.1), rgba(63,128,138, 0.1)), url(img/title_bg.png) no-repeat;
+	background: linear-gradient(rgba(63,128,138, 0.1), rgba(63,128,138, 0.1)), url(assets/img/title_bg.png) no-repeat;
 	background-size: 100% 100%;
 	display: inline-block;
 }
@@ -40,5 +39,12 @@ body .banner {
 @media screen and (min-width: 550px) {
   * {
     box-sizing: border-box;
+  }
+}
+
+/*******************MEDIA 720**********************/
+@media screen and (min-width: 720px) {
+  body .banner {
+    font-size: 24px;
   }
 }
