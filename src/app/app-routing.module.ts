@@ -14,9 +14,9 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: '**', component: PageNotFoundComponent }
 
-  // TODO contacts page
-  // TODO { path: 'article/:id',      component: ArticleComponent }
-  // TODO { path: 'articles', component: ArticleListComponent, data: { title: 'Articles List' } }  // -- ArticlesListComponent?
+  // contacts page
+  // { path: 'article/:id',      component: ArticleComponent }
+  // { path: 'articles', component: ArticleListComponent, data: { title: 'Articles List' } }  // -- ArticlesListComponent?
 ];
 
 @NgModule({
