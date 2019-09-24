@@ -7,7 +7,7 @@ header .wrap {
 header {
   margin-bottom: 8%;
   padding-top: 14%;
-  background: url(../../img/header_bg.png) no-repeat;
+  background: url(../../assets/img/header_bg.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -25,7 +25,7 @@ header .logo::before {
   width: 40px;
   height: 40px;
   margin: 5px;
-  background: url(../../img/logo.png) no-repeat;
+  background: url(../../assets/img/logo.png) no-repeat;
   background-size: 100% 100%;
   float: left;
   cursor: pointer;
@@ -81,7 +81,7 @@ header nav ul {
   margin: 0;
   border-radius: 5px;
   background: rgba(242,242,242,0.9);
-  background: url(../../img/sidebar_bg.png) repeat-y;
+  background: url(../../assets/img/sidebar_bg.png) repeat-y;
   list-style: none;
   display: none;
 }
@@ -128,7 +128,7 @@ header nav ul li a {
 header .search_icon:hover .search {
   width: 162px;
   background: rgba(242,242,242,0.9);
-  background: url(../../img/info_bg.png) no-repeat;
+  background: url(../../assets/img/info_bg.png) no-repeat;
   border-radius: 5px;
   display: block;
   position: absolute;
@@ -308,7 +308,7 @@ header .search {
     width: 180px;
     border-radius: 5px;
     background: rgba(242,242,242,0.9);
-    background: url(../../img/info_bg.png) no-repeat;
+    background: url(../../assets/img/info_bg.png) no-repeat;
     box-shadow: -1px 5px 8px 0px rgba(32,32,32,0.75);
     display: block;
     position: absolute;

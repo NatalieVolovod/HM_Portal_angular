@@ -3,6 +3,136 @@
   margin: 0 auto;
 }
 
-.main p {
-  background-color: chartreuse;
+.main {
+  max-width: 410px;
+  margin: 0 auto 30%;
+}
+
+.articles {
+  list-style: none;
+  margin: 0 4%;
+  padding: 0;
+}
+
+.articles li {
+  margin: 24% 0;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: rgba(242,242,242,0.9);
+  background: url(../../../assets/img/mclass_bg.jpeg) repeat-y;
+  background-position: -84px 0;
+  position: relative;
+}
+
+.articles li .banner {
+  position: absolute;
+  top: -52px;
+  left: 10px;
+  z-index: -1;
+}
+
+.articles li img {
+  width: 120px;
+  height: 120px;
+  margin: 0 14px 10px 0;
+  border-radius: 16%;
+  border: 1px solid #b1b0ad;
+  float: left;
+}
+
+.articles li a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #202020;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.articles li a::before {
+  color: #ef5504;
+}
+
+.articles li a:hover {
+  color: #006a6a;
+}
+
+/*******************MEDIA 550**********************/
+@media screen and (min-width: 550px) {
+  .main {
+    max-width: 720px;
+    margin-bottom: 10%;
+  }
+
+  .articles li {
+    width: 480px;
+    margin: 20% auto;
+  }
+}
+
+/*******************MEDIA 640**********************/
+@media screen and (min-width: 640px) {
+  .articles li {
+    margin: 14% auto;
+  }
+}
+
+/*******************MEDIA 720**********************/
+@media screen and (min-width: 720px) {
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .articles li {
+    width: 600px;
+    margin: 16% auto;
+    padding: 20px 12px 10px 84px;
+    background-size: cover;
+    font-size: 22px;
+    background-position: 0;
+  }
+
+  .articles li img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .articles li a {
+    font-size: 26px;
+  }
+}
+
+/*******************MEDIA 820**********************/
+@media screen and (min-width: 820px) {
+
+}
+
+/*******************MEDIA 960**********************/
+@media screen and (min-width: 960px) {
+  .main {
+    max-width: 960px;
+    width: 96%;
+    position: relative;
+  }
+
+  .articles li img {
+    width: 278px;
+    height: 236px;
+  }
+
+  .articles {
+    margin: 0;
+  }
+
+  .articles li {
+    width: 70%;
+    margin: 5% 0;
+    padding: 20px 12px 10px 94px;
+    background-size: cover;
+    background-position: 0;
+    display: inline-block;
+  }
 }
