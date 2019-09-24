@@ -1,0 +1,10 @@
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  background-color: aliceblue;
+  color: coral;
+  border-radius: 4px;
+}
