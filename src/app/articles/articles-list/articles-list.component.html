@@ -1,5 +1,5 @@
 <div class="main">
-  <ul class="articles">
+  <ul class="articles" *ngIf="articles.length > 0">
     <li class="big_shadow" *ngFor="let article of articles">
       <span class="banner">{{ article.section }}</span>
       <img [src]="article.picture" alt="Place picture here">
@@ -7,4 +7,5 @@
       <p>{{ article.description }}</p>
     </li>
   </ul>
+  <p class="info" *ngIf="articles.length <= 0">No articles written yet!</p>
 </div>

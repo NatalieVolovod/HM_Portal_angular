@@ -8,6 +8,14 @@
   margin: 0 auto 30%;
 }
 
+.info {
+  text-align: center;
+  background-color: rgba(242,242,242,0.9);
+  border-radius: 5px;
+  padding: 12px;
+  margin: 0 25%;
+}
+
 .articles {
   list-style: none;
   margin: 0 4%;
