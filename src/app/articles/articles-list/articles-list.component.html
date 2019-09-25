@@ -2,8 +2,8 @@
   <ul class="articles">
     <li class="big_shadow" *ngFor="let article of articles">
       <span class="banner">{{ article.section }}</span>
-      <img [attr.src]="article.picture" alt="Place picture here">
-      <a class="fa fa-dot-circle-o fa-lg" [attr.href]="article.link">{{ article.title }}</a>
+      <img [src]="article.picture" alt="Place picture here">
+      <a class="fa fa-dot-circle-o fa-lg" [href]="article.link">{{ article.title }}</a>
       <p>{{ article.description }}</p>
     </li>
   </ul>
