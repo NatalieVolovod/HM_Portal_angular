@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { ArticlesListComponent } from './articles/articles-list/articles-list.component';
+import { ArticlesShortcutsListComponent } from './articles/articles-shortcuts-list/articles-shortcuts-list.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ArticleComponent } from './articles/article/article.component';
@@ -19,7 +19,7 @@ import { ArtisanComponent } from './artisans/artisan/artisan.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ArticlesListComponent,
+    ArticlesShortcutsListComponent,
     HomeComponent,
     PageNotFoundComponent,
     ArticleComponent,

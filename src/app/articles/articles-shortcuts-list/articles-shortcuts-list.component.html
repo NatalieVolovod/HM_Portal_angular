@@ -2,7 +2,7 @@
   <ul class="articles" *ngIf="articles.length > 0">
     <li class="big_shadow" *ngFor="let article of articles">
       <span class="banner">{{ article.section }}</span>
-      <img [src]="article.picture" alt="Place picture here">
+      <img [src]="article.picturePath" alt="Place picture here">
       <a class="fa fa-dot-circle-o fa-lg" [href]="article.link">{{ article.title }}</a>
       <p>{{ article.description }}</p>
     </li>
