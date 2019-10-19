@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ARTICLES_SHORTCUTS } from '../article-shortcut/mock-articles-shortcuts';
+
+import { ArticlesShortcutsService} from '../article-shortcut/articles-shortcuts.service';
+import { ArticleShortcut } from '../article-shortcut/article-shortcut.model';
 
 @Component({
   selector: 'app-articles-selection',
@@ -8,11 +10,16 @@ import { ARTICLES_SHORTCUTS } from '../article-shortcut/mock-articles-shortcuts'
 })
 export class ArticlesShortcutsListComponent implements OnInit {
 
-  articles = ARTICLES_SHORTCUTS;
+  articles: ArticleShortcut[];
 
-  constructor() { }
+  constructor(private articlesShortcutsService: ArticlesShortcutsService) { }
 
   ngOnInit() {
+    this.getArticlesShortcuts();
   }
 
+  getArticlesShortcuts(): void {
+    this.articlesShortcutsService.getArticlesShortcuts()
+      .subscribe(articles => this.articles = articles);
+  }
 }
